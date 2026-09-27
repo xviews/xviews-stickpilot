@@ -11,11 +11,15 @@
 - **Stick einrichten:** Aufteilung für Dashcam und Wächter-Modus, Musik, Lightshow und Boombox. Die Vorlagen (Standard, Dashcam-Fokus, Viel Musik, Nur Dashcam) passen sich automatisch an die Stickgröße an.
 - **Stick prüfen:** Geschwindigkeitstest. Tesla verlangt für die Dashcam mindestens 4 MB/s dauerhafte Schreibrate.
 - **Shows, Sounds & Wraps:** Lightshows, Boombox-Sounds, Sperr-Sound (LockChime), Wraps und Kennzeichen hinzufügen. Alles wird auf die Tesla-Vorgaben geprüft, Lightshow-Tonspuren werden bei Bedarf auf 44,1 kHz umgewandelt.
+  - **Sperr-Sound-Werkstatt:** Einen Ausschnitt aus einem Lied oder Video wählen, anhören, ein- und ausblenden, Lautstärke angleichen und direkt als LockChime.wav übernehmen.
 - **Kennzeichen-Generator:** Deutschland, Österreich, Schweiz, Niederlande und USA. Deutsche Schilder mit HU-Plakette nach StVZO (Farbe je Jahr), Stempelplakette, Saison-, Kurzzeit- und Ausfuhrkennzeichen, Carbon- oder 3D-Optik.
-  - **Front-Kennzeichen als Wrap:** Tesla zeigt am 3D-Auto vorne kein Kennzeichen. Als Wrap kommt es auf den Stoßfänger (Model 3 ab 2024, Model S ab 2021).
+  - **Front-Kennzeichen als Wrap:** Tesla zeigt am 3D-Auto vorne kein Kennzeichen. Als Wrap kommt es auf den Stoßfänger (Model 3 ab 2024, Model S ab 2021, Model Y ab 2020; beim Model Y freuen wir uns über Rückmeldungen aus dem Auto).
   - **Wappen suchen:** Aus dem Ortskürzel werden Kreis und Bundesland ermittelt. Die Suche nach dem passenden Wappen öffnet sich mit einem Klick.
 - **Musik-Sync:** Überträgt nur neue und geänderte Titel.
 - **Dashcam:** Alle Kameras gleichzeitig, Fahrdaten (km/h, Gang, Blinker, Bremse, Autopilot, GPS), Clips zuschneiden und exportieren. Für die Fahrdaten-Einblendung im Export gibt es fünf Designs: Klassisch, Tesla-Stil, analoger Tacho, Minimal und Sport-HUD.
+  - **Karte mit Fahrstrecke:** Die ganze Fahrt auf einer OpenStreetMap-Karte, nach Tempo eingefärbt. Ein Klick auf die Strecke springt im Video an diese Stelle, Export als GPX-Datei.
+  - **Tempo-Verlauf:** Über der Zeitleiste, mit Bremsphasen. Ein Klick springt an die Stelle.
+- **Updates mit einem Klick:** Die App meldet neue Versionen, lädt sie nach Rückfrage, prüft die Prüfsumme und startet neu. Einstellungen und Vorlagen bleiben erhalten.
 
 ![Kennzeichen](bilder/3-kennzeichen.png)
 
@@ -34,9 +38,7 @@
 
 **Voraussetzungen:** Windows 10 oder 11 (64 Bit).
 
-**Sicherheit:** Die Prüfsummen (SHA-256) jeder Version stehen im Release-Text. Die aktuelle EXE (Version 2.6.0) wurde bei [VirusTotal](https://www.virustotal.com/gui/file/528e1528bf285fcf83743b4f4f92e81110895be943114553e55b87e6b1914a17) geprüft: **0 von 68 Virenscannern melden etwas.**
-
-[![VirusTotal: 0 von 68](bilder/virustotal.png)](https://www.virustotal.com/gui/file/528e1528bf285fcf83743b4f4f92e81110895be943114553e55b87e6b1914a17)
+**Sicherheit:** Die Prüfsummen (SHA-256) jeder Version stehen im Release-Text. Mit `Get-FileHash .\XviewsStickpilot.exe` in PowerShell kannst du sie selbst prüfen.
 
 **Beim ersten Start:**
 - Windows fragt nach **Adminrechten**. Die braucht Windows zum Formatieren des Sticks.
@@ -47,7 +49,10 @@
 
 - Beim Einrichten wird der Stick **gelöscht**, wenn du die vorhandenen Inhalte nicht behältst. Also vorher sichern.
 - Nutzung auf eigene Verantwortung.
-- Das Tool sendet keine Daten. Ins Internet geht es nur, wenn du selbst etwas anstößt, zum Beispiel Beispiel-Lightshows herunterladen oder die Wappen-Suche öffnen.
+- Das Tool sendet keine persönlichen Daten. Ins Internet geht es nur in diesen Fällen:
+  - **Update-Suche:** Die öffentliche Release-Seite auf GitHub wird abgefragt, standardmäßig einmal am Tag. In den Einstellungen wählbar: bei jedem Start, einmal am Tag, einmal pro Woche oder nie.
+  - **Karte:** Beim Öffnen der Karte werden Kartenbilder von OpenStreetMap geladen und zwischengespeichert.
+  - Wenn du selbst etwas anstößt, zum Beispiel Beispiel-Lightshows herunterladen oder die Wappen-Suche öffnen.
 
 ## Über den Namen
 
@@ -78,6 +83,7 @@ Nicht gestattet sind: der Verkauf, das Verändern des Programms, das Zurückentw
 - [Tesla-Vorgaben für Wraps & Lightshows](https://github.com/teslamotors), öffentliche Anleitungen von Tesla
 - HU-Plakette nachgezeichnet nach [StVZO Anlage IX](https://www.gesetze-im-internet.de/stvzo_2012/anlage_ix.html)
 - Kfz-Kürzel und Zulassungsbezirke: Quelle [Kraftfahrt-Bundesamt](https://www.kba.de/DE/Themen/ZentraleRegister/ZFZR/zfzr_node.html)
+- Karte: [© OpenStreetMap-Mitwirkende](https://www.openstreetmap.org/copyright)
 - Kreise und Bundesländer: Quelle [Statistisches Bundesamt (Destatis)](https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/04-kreise.html), [Datenlizenz Deutschland, Namensnennung 2.0](https://www.govdata.de/dl-de/by-2-0)
 - [CommunityToolkit.Mvvm](https://github.com/CommunityToolkit/dotnet), [NAudio](https://github.com/naudio/NAudio), [.NET / WPF](https://github.com/dotnet/wpf), jeweils MIT-Lizenz
 

@@ -45,6 +45,16 @@
 - Nutzung auf eigene Verantwortung.
 - Das Tool sendet keine Daten. Ins Internet geht es nur, wenn du selbst etwas anstößt, zum Beispiel Beispiel-Lightshows herunterladen oder die Wappen-Suche öffnen.
 
+## Über den Namen
+
+Alles begann mit Counter-Strike 1.5 und später 1.6. Wer damals mitspielen wollte, brauchte einen Namen, und meiner sollte etwas bedeuten: **X** steht für das Unbekannte, **views** fürs Sehen. Xviews heißt also: das Unbekannte sehen. Dass es ein bisschen nach X-Ray und Wallhack klang, hat so manchen Gegner nervös gemacht. Gespielt wurde trotzdem mit ehrlichen Mitteln. 😉
+
+Der Name ist geblieben: ab 2007 für meine HDR-Fotos im Netz, heute für dieses Tool. Denn auch ein Tesla-USB-Stick steckt voller Unbekannter: Welche Ordner braucht das Auto? Warum spielt die Lightshow keinen Ton? Wieso taucht das Kennzeichen nicht auf? Aus einem kleinen PowerShell-Skript, das genau diese Fragen beantworten sollte, wurde erst eine EXE und dann ein richtiges Programm.
+
+Und der Stickpilot? Der Tesla hat seinen Autopiloten, also bekommt der Stick auch einen. Einen, der den Weg kennt, sich um die Details kümmert und dich sicher ans Ziel bringt: von der leeren Partition bis zum Kennzeichen am 3D-Auto.
+
+**Xviews Stickpilot: das Unbekannte sehen, Stick rein, fertig.**
+
 ## Fehler melden
 
 Fehler und Wünsche gerne unter **[Issues](../../issues)**, am besten mit Screenshot und Windows-Version.

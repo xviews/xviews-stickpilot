@@ -38,7 +38,7 @@
 
 **Voraussetzungen:** Windows 10 oder 11 (64 Bit).
 
-**Sicherheit:** Die Prüfsummen (SHA-256) jeder Version stehen im Release-Text. Mit `Get-FileHash .\XviewsStickpilot.exe` in PowerShell kannst du sie selbst prüfen.
+**Sicherheit:** Die Prüfsummen (SHA-256) jeder Version stehen im Release-Text. Mit `Get-FileHash .\XviewsStickpilot.exe` in PowerShell kannst du sie selbst prüfen. Die aktuelle EXE (Version 2.7.0) wurde bei [VirusTotal](https://www.virustotal.com/gui/file/1550437d32d24fc8806189e7cb17703cb4f304a20bedc0b1e11b027ba31fe4ff) geprüft: **0 von 67 Virenscannern melden etwas.**
 
 **Beim ersten Start:**
 - Windows fragt nach **Adminrechten**. Die braucht Windows zum Formatieren des Sticks.

@@ -63,7 +63,8 @@ Nicht gestattet sind: der Verkauf, das Verändern des Programms, das Zurückentw
 - [Tesla-Dashcam-Datenformat](https://github.com/teslamotors/dashcam), öffentlich beschrieben von Tesla, eigener Leser
 - [Tesla-Vorgaben für Wraps & Lightshows](https://github.com/teslamotors), öffentliche Anleitungen von Tesla
 - HU-Plakette nachgezeichnet nach [StVZO Anlage IX](https://www.gesetze-im-internet.de/stvzo_2012/anlage_ix.html)
-- Kfz-Kürzel nach [Wikipedia](https://de.wikipedia.org/wiki/Liste_der_Kfz-Kennzeichen_in_Deutschland), CC BY-SA 4.0
+- Kfz-Kürzel und Zulassungsbezirke: Quelle [Kraftfahrt-Bundesamt](https://www.kba.de/DE/Themen/ZentraleRegister/ZFZR/zfzr_node.html)
+- Kreise und Bundesländer: Quelle [Statistisches Bundesamt (Destatis)](https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/04-kreise.html), [Datenlizenz Deutschland, Namensnennung 2.0](https://www.govdata.de/dl-de/by-2-0)
 - [CommunityToolkit.Mvvm](https://github.com/CommunityToolkit/dotnet), [NAudio](https://github.com/naudio/NAudio), [.NET / WPF](https://github.com/dotnet/wpf), jeweils MIT-Lizenz
 
 Die vollständigen Lizenztexte stehen in der App unter **Info → Lizenzen anzeigen**.

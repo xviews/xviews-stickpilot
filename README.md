@@ -34,6 +34,8 @@
 
 **Voraussetzungen:** Windows 10 oder 11 (64 Bit).
 
+**Sicherheit:** Die Prüfsummen (SHA-256) jeder Version stehen im Release-Text. Die aktuelle EXE wurde bei [VirusTotal](https://www.virustotal.com/gui/file/528e1528bf285fcf83743b4f4f92e81110895be943114553e55b87e6b1914a17) von rund 70 Virenscannern geprüft.
+
 **Beim ersten Start:**
 - Windows fragt nach **Adminrechten**. Die braucht Windows zum Formatieren des Sticks.
 - Meldet SmartScreen „Unbekannter Herausgeber“, auf **„Weitere Informationen“** und dann auf **„Trotzdem ausführen“** klicken. Die EXE ist nicht signiert, weil ein Zertifikat Geld kostet.

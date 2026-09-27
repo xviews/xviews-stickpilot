@@ -34,7 +34,9 @@
 
 **Voraussetzungen:** Windows 10 oder 11 (64 Bit).
 
-**Sicherheit:** Die Prüfsummen (SHA-256) jeder Version stehen im Release-Text. Die aktuelle EXE wurde bei [VirusTotal](https://www.virustotal.com/gui/file/528e1528bf285fcf83743b4f4f92e81110895be943114553e55b87e6b1914a17) von rund 70 Virenscannern geprüft.
+**Sicherheit:** Die Prüfsummen (SHA-256) jeder Version stehen im Release-Text. Die aktuelle EXE (Version 2.6.0) wurde bei [VirusTotal](https://www.virustotal.com/gui/file/528e1528bf285fcf83743b4f4f92e81110895be943114553e55b87e6b1914a17) geprüft: **0 von 68 Virenscannern melden etwas.**
+
+[![VirusTotal: 0 von 68](bilder/virustotal.png)](https://www.virustotal.com/gui/file/528e1528bf285fcf83743b4f4f92e81110895be943114553e55b87e6b1914a17)
 
 **Beim ersten Start:**
 - Windows fragt nach **Adminrechten**. Die braucht Windows zum Formatieren des Sticks.

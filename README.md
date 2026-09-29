@@ -13,7 +13,7 @@
 - **Shows, Sounds & Wraps:** Lightshows, Boombox-Sounds, Sperr-Sound (LockChime), Wraps und Kennzeichen hinzufügen. Alles wird auf die Tesla-Vorgaben geprüft, Lightshow-Tonspuren werden bei Bedarf auf 44,1 kHz umgewandelt.
   - **Sperr-Sound-Werkstatt:** Einen Ausschnitt aus einem Lied oder Video wählen, anhören, ein- und ausblenden, Lautstärke angleichen und direkt als LockChime.wav übernehmen.
 - **Kennzeichen-Generator:** Deutschland, Österreich, Schweiz, Niederlande und USA. Deutsche Schilder mit HU-Plakette nach StVZO (Farbe je Jahr), Stempelplakette, Saison-, Kurzzeit- und Ausfuhrkennzeichen, Carbon- oder 3D-Optik.
-  - **Front-Kennzeichen als Wrap:** Tesla zeigt am 3D-Auto vorne kein Kennzeichen. Als Wrap kommt es auf den Stoßfänger (Model 3 ab 2024, Model S ab 2021, Model Y ab 2020; beim Model Y freuen wir uns über Rückmeldungen aus dem Auto).
+  - **Front-Kennzeichen als Wrap:** Tesla zeigt am 3D-Auto vorne kein Kennzeichen. Als Wrap kommt es auf den Stoßfänger: Model 3 (ab 2017, auch Performance), Model S und Model X (ab 2021, auch Plaid), Model Y (ab 2020, auch Performance und Model Y L). Eine Vorschau auf einem gezeichneten Stoßfänger zeigt vorher, wie es am Auto aussieht.
   - **Wappen suchen:** Aus dem Ortskürzel werden Kreis und Bundesland ermittelt. Die Suche nach dem passenden Wappen öffnet sich mit einem Klick.
 - **Musik-Sync:** Überträgt nur neue und geänderte Titel.
 - **Dashcam:** Alle Kameras gleichzeitig, Fahrdaten (km/h, Gang, Blinker, Bremse, Autopilot, GPS), Clips zuschneiden und exportieren. Für die Fahrdaten-Einblendung im Export gibt es fünf Designs: Klassisch, Tesla-Stil, analoger Tacho, Minimal und Sport-HUD.

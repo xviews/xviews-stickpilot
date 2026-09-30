@@ -2,6 +2,10 @@
 
 **Der USB-Stick für deinen Tesla, einfach gemacht.** Kostenloses Windows-Tool, das den kompletten Tesla-USB-Stick einrichtet, befüllt und prüft. Dazu gibt es einen Kennzeichen-Generator und einen Dashcam-Viewer mit Fahrdaten.
 
+[![Download XviewsStickpilot.exe](https://img.shields.io/github/v/release/xviews/xviews-stickpilot?label=Download%20XviewsStickpilot.exe&style=for-the-badge&logo=windows&logoColor=white&color=2ea44f)](https://github.com/xviews/xviews-stickpilot/releases/latest/download/XviewsStickpilot.exe)
+
+Direkter Download der neuesten Version für Windows 10/11 (64 Bit), ohne Installation. Weitere Hinweise unter [Download](#download).
+
 > Privates Projekt ohne Verbindung zu Tesla, Inc. „Tesla“ ist eine Marke von Tesla, Inc.
 
 ![Stick einrichten](bilder/1-stick-einrichten.png)

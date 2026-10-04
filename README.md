@@ -23,6 +23,7 @@ Direkter Download der neuesten Version für Windows 10/11 (64 Bit), ohne Install
 - **Dashcam:** Alle Kameras gleichzeitig, Fahrdaten (km/h, Gang, Blinker, Bremse, Autopilot, GPS), Clips zuschneiden und exportieren. Für die Fahrdaten-Einblendung im Export gibt es fünf Designs: Klassisch, Tesla-Stil, analoger Tacho, Minimal und Sport-HUD.
   - **Karte mit Fahrstrecke:** Die ganze Fahrt auf einer OpenStreetMap-Karte, nach Tempo eingefärbt. Ein Klick auf die Strecke springt im Video an diese Stelle, Export als GPX-Datei.
   - **Tempo-Verlauf:** Über der Zeitleiste, mit Bremsphasen. Ein Klick springt an die Stelle.
+  - **Verschlüsselte Clips (ab Update 2026.20):** Mit deinem Tesla-Konto direkt in der App entschlüsseln und abspielen. Alternativ öffnet die App auch den ZIP-Download von dashcam.tesla.com.
 - **Updates mit einem Klick:** Die App meldet neue Versionen, lädt sie nach Rückfrage, prüft die Prüfsumme und startet neu. Einstellungen und Vorlagen bleiben erhalten.
 
 ![Kennzeichen](bilder/3-kennzeichen.png)
@@ -47,15 +48,16 @@ Direkter Download der neuesten Version für Windows 10/11 (64 Bit), ohne Install
 **Beim ersten Start:**
 - Windows fragt nach **Adminrechten**. Die braucht Windows zum Formatieren des Sticks.
 - Meldet SmartScreen „Unbekannter Herausgeber“, auf **„Weitere Informationen“** und dann auf **„Trotzdem ausführen“** klicken. Die EXE ist nicht signiert, weil ein Zertifikat Geld kostet.
-- Einstellungen und Bibliothek liegen im Ordner `XviewsStickpilot` neben der EXE.
+- Einstellungen liegen in deinem Windows-Benutzerordner (`%LOCALAPPDATA%\XviewsStickpilot`), deine Inhalte (Lightshows, Kennzeichen, Sicherungen, entschlüsselte Clips) im Ordner `XviewsStickpilot` neben der EXE. Beide Orte zeigt die App unter **Info**. Startest du die App von einem USB-Stick, fragt sie einmal, ob alles auf dem Stick bleiben soll (portabel). Umstellen geht jederzeit mit einem Knopf auf der Info-Seite.
 
 ## Wichtig
 
 - Beim Einrichten wird der Stick **gelöscht**, wenn du die vorhandenen Inhalte nicht behältst. Also vorher sichern.
 - Nutzung auf eigene Verantwortung.
-- Das Tool sendet keine persönlichen Daten. Ins Internet geht es nur in diesen Fällen:
+- Das Tool sammelt keine Daten und schickt nichts an mich. Ins Internet geht es nur in diesen Fällen:
   - **Update-Suche:** Die öffentliche Release-Seite auf GitHub wird abgefragt, standardmäßig einmal am Tag. In den Einstellungen wählbar: bei jedem Start, einmal am Tag, einmal pro Woche oder nie.
   - **Karte:** Beim Öffnen der Karte werden Kartenbilder von OpenStreetMap geladen und zwischengespeichert.
+  - **Verschlüsselte Dashcam-Clips:** Nur wenn du auf „Entschlüsseln“ klickst. Dann meldest du dich bei Tesla an, und die App fragt die Schlüssel bei dashcam.tesla.com ab, genau wie Teslas eigene Webseite. An Tesla gehen nur die Angaben aus dem Dateikopf: Fahrzeug-Identnummer (VIN), Zeitpunkt der Aufnahme und der verpackte Schlüssel. Die Videos verlassen deinen PC nicht. Anmeldung und Schlüssel werden mit Windows-Verschlüsselung in deinem Windows-Benutzerordner gespeichert. E-Mail und Passwort speichert das Anmeldefenster nur, wenn du das ausdrücklich einschaltest. In den Einstellungen lässt sich die Funktion abschalten, und Anmeldung und Schlüssel lassen sich dort löschen. Das Anmeldefenster ist Microsoft Edge WebView2 (Teil von Windows), dabei gelten auch die Datenschutzbestimmungen von Microsoft und Tesla. Die Schlüsselabfrage nutzt dieselbe Schnittstelle wie Teslas Dashcam-Webseite. Sie ist nicht offiziell für andere Programme freigegeben, Tesla kann sie jederzeit ändern. Funktioniert sie einmal nicht, bleibt der Weg über dashcam.tesla.com.
   - Wenn du selbst etwas anstößt, zum Beispiel Beispiel-Lightshows herunterladen oder die Wappen-Suche öffnen.
 
 ## Über den Namen
@@ -90,5 +92,6 @@ Nicht gestattet sind: der Verkauf, das Verändern des Programms, das Zurückentw
 - Karte: [© OpenStreetMap-Mitwirkende](https://www.openstreetmap.org/copyright)
 - Kreise und Bundesländer: Quelle [Statistisches Bundesamt (Destatis)](https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/04-kreise.html), [Datenlizenz Deutschland, Namensnennung 2.0](https://www.govdata.de/dl-de/by-2-0)
 - [CommunityToolkit.Mvvm](https://github.com/CommunityToolkit/dotnet), [NAudio](https://github.com/naudio/NAudio), [.NET / WPF](https://github.com/dotnet/wpf), jeweils MIT-Lizenz
+- [Microsoft Edge WebView2 SDK](https://www.nuget.org/packages/Microsoft.Web.WebView2) (Anmeldefenster für Tesla), BSD-Lizenz
 
 Die vollständigen Lizenztexte stehen in der App unter **Info → Lizenzen anzeigen**.

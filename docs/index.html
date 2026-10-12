@@ -85,9 +85,15 @@ code { background: #ffffff12; padding: 1px 6px; border-radius: 6px; font-size: .
 .story .claim { font-weight: 700; font-size: 20px; color: var(--text); }
 
 footer { padding: 40px 0 60px; color: var(--muted); font-size: 14.5px; border-top: 1px solid var(--line); }
-footer .wrap { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: center; }
-footer .links { display: flex; gap: 18px; flex-wrap: wrap; justify-content: flex-end; }
-footer img { width: 64px; vertical-align: middle; margin-right: 10px; }
+footer .wrap { display: flex; justify-content: space-between; align-items: center; gap: 24px 40px; flex-wrap: wrap; }
+footer .brand { display: flex; align-items: center; gap: 16px; max-width: 640px; }
+footer .brand img { width: 56px; height: auto; flex: none; }
+footer .brand b { display: block; color: var(--text); font-size: 15.5px; margin-bottom: 2px; }
+footer .brand p { margin: 0; line-height: 1.5; }
+footer .brand > div { min-width: 0; }
+footer .links { display: flex; gap: 22px; flex-wrap: wrap; }
+footer .links a { color: var(--muted); text-decoration: none; font-weight: 600; }
+footer .links a:hover { color: var(--accent); }
 
 @media (max-width: 900px) {
 	.hero .wrap, .feature, .feature.rev { grid-template-columns: 1fr; }
@@ -98,8 +104,7 @@ footer img { width: 64px; vertical-align: middle; margin-right: 10px; }
 @media (max-width: 620px) {
 	body { font-size: 16px; }
 	.wrap { padding: 0 16px; }
-	.grid, .steps, footer .wrap { grid-template-columns: 1fr; }
-	footer .links { justify-content: flex-start; }
+	.grid, .steps { grid-template-columns: 1fr; }
 	.hero { padding-top: 40px; }
 	th:nth-child(2), td:nth-child(2) { display: none; }
 }
@@ -220,9 +225,12 @@ footer img { width: 64px; vertical-align: middle; margin-right: 10px; }
 
 <footer>
 	<div class="wrap">
-		<div>
+		<div class="brand">
 			<img src="https://raw.githubusercontent.com/xviews/xviews/main/bilder/xviews.png" alt="Xviews">
-			© 2026 Xviews · kostenlos für die private Nutzung (<a href="https://github.com/xviews/xviews-stickpilot/blob/main/LICENSE.txt">Nutzungsbedingungen</a>) · „Tesla“ ist eine Marke von Tesla, Inc.
+			<div>
+				<b>© 2026 Xviews</b>
+				<p>Kostenlos für die private Nutzung (<a href="https://github.com/xviews/xviews-stickpilot/blob/main/LICENSE.txt">Nutzungsbedingungen</a>). „Tesla“ ist eine Marke von Tesla, Inc.</p>
+			</div>
 		</div>
 		<div class="links">
 			<a href="https://github.com/xviews/xviews-stickpilot">GitHub</a>

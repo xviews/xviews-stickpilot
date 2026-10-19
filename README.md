@@ -82,7 +82,6 @@ Welche Ordner braucht das Auto? Warum spielt die Lightshow keinen Ton? Wieso tau
 | Datei | Größe | Hinweis |
 |---|---|---|
 | [`XviewsStickpilot.exe`](https://github.com/xviews/xviews-stickpilot/releases/latest/download/XviewsStickpilot.exe) | ca. 72 MB | läuft sofort, keine Installation, empfohlen |
-| [`XviewsStickpilot-klein-benoetigt-dotnet10.exe`](https://github.com/xviews/xviews-stickpilot/releases/latest/download/XviewsStickpilot-klein-benoetigt-dotnet10.exe) | ca. 28 MB | braucht die [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0) |
 
 **Voraussetzungen:** Windows 10 oder 11 (64 Bit). ➡️ Alle Versionen und Prüfsummen unter **[Releases](../../releases)**.
 
